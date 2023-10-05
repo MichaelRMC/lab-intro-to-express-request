@@ -1,10 +1,12 @@
 {
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "dotenv": "^2.0.0",
+    "express": "^4.18.2"
   },
   "scripts": {
     "start": "node server.js",
+    "dev": "nodemon server.js",
+    "main": "server.js",
     "test": "jest"
   },
   "name": "99-pokemon-express",
@@ -15,6 +17,7 @@
   "description": "",
   "devDependencies": {
     "jest": "^27.0.3",
+    "nodemon": "^3.0.1",
     "supertest": "^6.1.3"
   }
 }
